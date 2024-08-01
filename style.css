@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.form{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ababab;
+    outline: none;
+}
+.form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.div textarea{
+    resize: none;
+    outline: none;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper input{
+    margin-top: 50px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.inner input{
+    width: 350px;
+    padding: 10px;
+    outline: none;
+}
+.inner textarea{
+    width: 400px;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
